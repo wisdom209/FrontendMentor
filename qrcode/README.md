@@ -22,8 +22,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Solution URL: [Solution](https://github.com/wisdom209/FrontendMentor/tree/main/qrcode)
 - Live Site URL: [Live site](https://frontend-mentor-1fdk.vercel.app/qrcode/index.html)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
