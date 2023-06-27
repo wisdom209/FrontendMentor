@@ -301,3 +301,7 @@
     color: rgb(88, 87, 87);
   }
 }
+
+button:hover{
+	background-color: var(--Cobalt-blue);
+}
