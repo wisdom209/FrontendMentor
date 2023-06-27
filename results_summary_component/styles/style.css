@@ -177,7 +177,6 @@
 	flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    border-radius: 20px;
     width: 100vw;
     height: auto;
     padding: 0;
@@ -188,7 +187,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 80px 100px 10px 100px;
+    padding: 10%;
     width: 100%;
     height: auto;
     background: linear-gradient(
@@ -196,7 +195,8 @@
       var(--Cobalt-blue),
       var(--Light-slate-blue-background)
     );
-    border-radius: 40px;
+    border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
   }
 
   .overview .title {
