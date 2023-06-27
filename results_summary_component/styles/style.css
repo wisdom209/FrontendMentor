@@ -1,7 +1,8 @@
 :root {
-  --Light-red: hsl(0, 100%, 67%);
-  --Orangey-yellow: hsl(39, 67%, 83%);
-  --Green-teal: hsl(166, 42%, 90%);
+  --Light-red: hsl(0, 80%, 96%);
+  --Orangey-yellow: hsl(37, 62%, 93%);
+  --Green-teal: hsl(165, 57%, 97%);
+  --light-purple: hsl(240, 63%, 97%);
   --Cobalt-blue: hsl(234, 85%, 45%);
   --Light-slate-blue-background: hsl(252, 100%, 67%);
   --Light-royal-blue-background: hsl(241, 81%, 54%);
@@ -128,7 +129,7 @@
   }
 
   .reaction {
-    background-color: rgb(247, 216, 216);
+    background-color: var(--Light-red);
     color: rgb(206, 58, 58);
     font-weight: bold;
   }
@@ -146,7 +147,7 @@
   }
 
   .visual {
-    background-color: var(--Light-lavender);
+    background-color: var(--light-purple);
     color: rgb(143, 143, 236);
     font-weight: bold;
   }
@@ -270,7 +271,7 @@
   }
 
   .reaction {
-    background-color: rgb(247, 216, 216);
+    background-color: var(--Light-red);
     color: rgb(206, 58, 58);
     font-weight: bold;
   }
@@ -288,7 +289,7 @@
   }
 
   .visual {
-    background-color: var(--Light-lavender);
+    background-color: var(--light-purple);
     color: rgb(143, 143, 236);
     font-weight: bold;
   }
