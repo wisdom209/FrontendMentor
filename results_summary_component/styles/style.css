@@ -111,9 +111,9 @@
   .virtual,
   .visual {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 1rem;
-    padding: 0.4rem;
+    padding: 0.4rem 0.4rem 0.4rem 0.6rem;
     width: 15rem;
     border-radius: 10px;
     opacity: 90%;
@@ -175,7 +175,7 @@
 
   .report-card {
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     width: 100vw;
@@ -197,7 +197,7 @@
       var(--Light-slate-blue-background)
     );
     border-bottom-left-radius: 40px;
-	border-bottom-right-radius: 40px;
+    border-bottom-right-radius: 40px;
   }
 
   .overview .title {
@@ -244,8 +244,8 @@
 
   .summary {
     padding: 20px;
-	align-self: flex-start;
-	width: 100%;
+    align-self: flex-start;
+    width: 100%;
   }
 
   .reaction,
@@ -303,6 +303,6 @@
   }
 }
 
-button:hover{
-	background-color: var(--Cobalt-blue);
+button:hover {
+  background-color: var(--Cobalt-blue);
 }
