@@ -21,12 +21,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/wisdom209/FrontendMentor/tree/main/product-preview-card-component)
-- Live Site URL: [Live Site](https://frontend-mentor-1fdk.vercel.app/product-preview-card-component/index.html)
+- Solution URL: [Solution](https://github.com/wisdom209/FrontendMentor/tree/main/results_summary_component)
+- Live Site URL: [Live Site](https://frontend-mentor-1fdk.vercel.app/results_summary_component/index.html)
 
 ### Built with
 
