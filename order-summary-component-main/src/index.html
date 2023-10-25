@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images//favicon-32x32.png">
+	<link rel="stylesheet" href="/dist/output.css">
+
+	<title>Frontend Mentor | Order summary card</title>
+
+	<style>
+		body {
+			background-image: url('./images/pattern-background-desktop.svg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-position-y: -70%;
+		}
+
+		p {
+			font-size: 16px;
+		}
+	</style>
+</head>
+
+<body class="font-red-hat-display bg-pale-blue flex justify-center items-center h-screen p-6">
+
+	<main class="rounded-lg shadow-lg bg-white" style="width: 350px;">
+		<!-- image div -->
+		<img alt="illustration" src="./images/illustration-hero.svg" class="w-full rounded-t-lg">
+
+		<div class="p-6">
+
+			<h2 class="text-center font-bold">Order Summary</h2>
+
+			<p class="text-slate-400 text-center flex-wrap py-4">
+				You can now listen to millions of songs, audiobooks,
+				and podcasts on any device anywhere you like!
+			</p>
+
+			<div class="flex bg-Very-pale-blue p-2 rounded-md">
+				<img src="./images/icon-music.svg" class="mr-3" />
+
+				<div class="flex-grow">
+					<p class="font-semibold">Annual Plan</p>
+
+					<p class="text-slate-400">$59.99/year</p>
+				</div>
+
+				<a href="#" class="inline-block visited:underline text-Dark-blue hover:text-violet-600 cursor-pointer"
+					style="margin-top: 3.5%; text-decoration: underline;">
+					Change
+				</a>
+			</div>
+
+			<button class="block mx-auto my-5 text-white bg-Dark-blue py-1 w-full rounded-lg 
+			hover:bg-violet-600 shadow-2xl shadow-black">
+				Proceed to Payment
+			</button>
+
+			<button class="block mx-auto">Cancel Order</button>
+
+		</div>
+	</main>
+</body>
+
+</html>
